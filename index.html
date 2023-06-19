@@ -2,465 +2,148 @@
 <html>
 
 <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Coffe Bar</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="menu.css">
-    <link rel="import" href="index.html">
-    <title>Меню</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="main.js"></script>
+
 </head>
 
-<body>
-    <div class="menu">
-        <a href="index.html#x" class="button_close">x</a>
-        <h1 class="menu-title">Menu</h1>
+<body style="background-color: #0d0c17; display: flex; flex-direction: column;">
 
-        <h2>Hot drinks</h2>
+    <header style="background-color:#0d0c17; height: 70px; overflow: hidden;">
+    </header>
+    <div class="container gallery-container text-center">
 
-        <div style="display: flex;" class="menu-content">
-            <div>
-                <div class="menu-item">
-                    <img src="coffee1.jpg" alt="">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Espresso</h3>
-                        <p class="menu-item-description"></p>
-                        <p class="menu-item-price"> $3.50</p>
-                    </div>
+        <div class="column_objects">
+            <h2 class="neon-text">welcome to</h2>
+            <h1 class="neon">Coffe Bar</h1>
+            <div class="row_objects">
+                <h2 class="schedule">ПН — НД 10:00 — 22:00</h2>
+                <div class="text_button">замовити столик: <a href="tel:+380635550000" class="icon"><img
+                            src="img/phone-white-2.png"></a>
                 </div>
-
-                <div class="menu-item">
-                    <img src="coffee2.jpg" alt="Americano">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Americano</h3>
-                        <p class="menu-item-description">black coffe with hot water</p>
-                        <p class="menu-item-price">Цена: $4.00</p>
-                    </div>
+                <div class="text_button">локація: <a
+                        href="https://www.google.com/maps/@59.9330418,24.711572,8z?entry=ttu" class="icon"><img
+                            src="img/loc.png"></a>
                 </div>
-
-                <div class="menu-item">
-                    <img src="coffee3.jpg" alt="Кофе 3">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Lungo</h3>
-                        <p class="menu-item-description">e</p>
-                        <p class="menu-item-price">$3.50</p>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img src="coffee1.jpg" alt="">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Glace</h3>
-                        <p class="menu-item-description"></p>
-                        <p class="menu-item-price"> $4.50</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="coffee2.jpg" alt="Americano">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Capucino</h3>
-                        <p class="menu-item-description">black coffe with hot water</p>
-                        <p class="menu-item-price">Цена: $4.00</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="coffee3.jpg" alt="Кофе 3">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Latte</h3>
-                        <p class="menu-item-description">e</p>
-                        <p class="menu-item-price">$4.50</p>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img src="coffee1.jpg" alt="">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Cacao</h3>
-                        <p class="menu-item-description"></p>
-                        <p class="menu-item-price">$4.50</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="coffee2.jpg" alt="Americano">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Tea</h3>
-                        <p class="menu-item-description">black, green, fruity, ginger</p>
-                        <p class="menu-item-price"> $4.00</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <div class="menu-item">
-                        <img src="coffee1.jpg" alt="">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Espresso</h3>
-                            <p class="menu-item-description"></p>
-                            <p class="menu-item-price"> $3.50</p>
+                <div class="container_pm" id="x">
+                    <div class="obj">
+                        <div class="caption">
+                            <h3 style="color: rgba(159, 149, 137, 0.965);">меню:</h3>
                         </div>
+                        <a class="tz-gallery" href="img/menu.png">
+                            <img src="img/StillLifeinFrontofaWindow_1922.jpg" alt="Park">
+                        </a>
                     </div>
 
-                    <div class="menu-item">
-                        <img src="coffee2.jpg" alt="Americano">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Americano</h3>
-                            <p class="menu-item-description">black coffe with hot water</p>
-                            <p class="menu-item-price">Цена: $4.00</p>
-                        </div>
-                    </div>
+                    <div class="obj">
 
-                    <div class="menu-item">
-                        <img src="coffee3.jpg" alt="Кофе 3">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Lungo</h3>
-                            <p class="menu-item-description">e</p>
-                            <p class="menu-item-price">$3.50</p>
+                        <div class="caption">
+                            <h3 style="color: rgba(159, 149, 137, 0.965);">заходи:</h3>
                         </div>
-                    </div>
-                    <div class="menu-item">
-                        <img src="coffee1.jpg" alt="">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Glace</h3>
-                            <p class="menu-item-description"></p>
-                            <p class="menu-item-price"> $4.50</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img src="coffee2.jpg" alt="Americano">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Capucino</h3>
-                            <p class="menu-item-description">black coffe with hot water</p>
-                            <p class="menu-item-price">Цена: $4.00</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img src="coffee3.jpg" alt="Кофе 3">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Latte</h3>
-                            <p class="menu-item-description">e</p>
-                            <p class="menu-item-price">$4.50</p>
-                        </div>
-                    </div>
-                    <div class="menu-item">
-                        <img src="coffee1.jpg" alt="">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Cacao</h3>
-                            <p class="menu-item-description"></p>
-                            <p class="menu-item-price">$4.50</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img src="coffee2.jpg" alt="Americano">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Tea</h3>
-                            <p class="menu-item-description">black, green, fruity, ginger</p>
-                            <p class="menu-item-price"> $4.00</p>
-                        </div>
+                        <a class="tz-gallery" href="img/events_sheduel.png">
+                            <img src="img/StillLifewithGuitar.jpg" alt="Park">
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
-
-        <h2>Alcohol</h2>
-
-        <div style="display: flex;" class="menu-content">
-            <div>
-                <div class="menu-item">
-                    <img src="coffee1.jpg" alt="">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Espresso</h3>
-                        <p class="menu-item-description"></p>
-                        <p class="menu-item-price"> $3.50</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="coffee2.jpg" alt="Americano">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Americano</h3>
-                        <p class="menu-item-description">black coffe with hot water</p>
-                        <p class="menu-item-price">Цена: $4.00</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="coffee3.jpg" alt="Кофе 3">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Lungo</h3>
-                        <p class="menu-item-description">e</p>
-                        <p class="menu-item-price">$3.50</p>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img src="coffee1.jpg" alt="">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Glace</h3>
-                        <p class="menu-item-description"></p>
-                        <p class="menu-item-price"> $4.50</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="coffee2.jpg" alt="Americano">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Capucino</h3>
-                        <p class="menu-item-description">black coffe with hot water</p>
-                        <p class="menu-item-price">Цена: $4.00</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="coffee3.jpg" alt="Кофе 3">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Latte</h3>
-                        <p class="menu-item-description">e</p>
-                        <p class="menu-item-price">$4.50</p>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img src="coffee1.jpg" alt="">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Cacao</h3>
-                        <p class="menu-item-description"></p>
-                        <p class="menu-item-price">$4.50</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="coffee2.jpg" alt="Americano">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Tea</h3>
-                        <p class="menu-item-description">black, green, fruity, ginger</p>
-                        <p class="menu-item-price"> $4.00</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <div class="menu-item">
-                        <img src="coffee1.jpg" alt="">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Espresso</h3>
-                            <p class="menu-item-description"></p>
-                            <p class="menu-item-price"> $3.50</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img src="coffee2.jpg" alt="Americano">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Americano</h3>
-                            <p class="menu-item-description">black coffe with hot water</p>
-                            <p class="menu-item-price">Цена: $4.00</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img src="coffee3.jpg" alt="Кофе 3">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Lungo</h3>
-                            <p class="menu-item-description">e</p>
-                            <p class="menu-item-price">$3.50</p>
-                        </div>
-                    </div>
-                    <div class="menu-item">
-                        <img src="coffee1.jpg" alt="">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Glace</h3>
-                            <p class="menu-item-description"></p>
-                            <p class="menu-item-price"> $4.50</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img src="coffee2.jpg" alt="Americano">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Capucino</h3>
-                            <p class="menu-item-description">black coffe with hot water</p>
-                            <p class="menu-item-price">Цена: $4.00</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img src="coffee3.jpg" alt="Кофе 3">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Latte</h3>
-                            <p class="menu-item-description">e</p>
-                            <p class="menu-item-price">$4.50</p>
-                        </div>
-                    </div>
-                    <div class="menu-item">
-                        <img src="coffee1.jpg" alt="">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Cacao</h3>
-                            <p class="menu-item-description"></p>
-                            <p class="menu-item-price">$4.50</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img src="coffee2.jpg" alt="Americano">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Tea</h3>
-                            <p class="menu-item-description">black, green, fruity, ginger</p>
-                            <p class="menu-item-price"> $4.00</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <h2>Deserts</h2>
-        <div style="display: flex;" class="menu-content">
-            <div>
-                <div class="menu-item">
-                    <img src="coffee1.jpg" alt="">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Espresso</h3>
-                        <p class="menu-item-description"></p>
-                        <p class="menu-item-price"> $3.50</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="coffee2.jpg" alt="Americano">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Americano</h3>
-                        <p class="menu-item-description">black coffe with hot water</p>
-                        <p class="menu-item-price">Цена: $4.00</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="coffee3.jpg" alt="Кофе 3">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Lungo</h3>
-                        <p class="menu-item-description">e</p>
-                        <p class="menu-item-price">$3.50</p>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img src="coffee1.jpg" alt="">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Glace</h3>
-                        <p class="menu-item-description"></p>
-                        <p class="menu-item-price"> $4.50</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="coffee2.jpg" alt="Americano">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Capucino</h3>
-                        <p class="menu-item-description">black coffe with hot water</p>
-                        <p class="menu-item-price">Цена: $4.00</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="coffee3.jpg" alt="Кофе 3">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Latte</h3>
-                        <p class="menu-item-description">e</p>
-                        <p class="menu-item-price">$4.50</p>
-                    </div>
-                </div>
-                <div class="menu-item">
-                    <img src="coffee1.jpg" alt="">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Cacao</h3>
-                        <p class="menu-item-description"></p>
-                        <p class="menu-item-price">$4.50</p>
-                    </div>
-                </div>
-
-                <div class="menu-item">
-                    <img src="coffee2.jpg" alt="Americano">
-                    <div class="menu-item-details">
-                        <h3 class="menu-item-name">Tea</h3>
-                        <p class="menu-item-description">black, green, fruity, ginger</p>
-                        <p class="menu-item-price"> $4.00</p>
-                    </div>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <div class="menu-item">
-                        <img src="coffee1.jpg" alt="">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Espresso</h3>
-                            <p class="menu-item-description"></p>
-                            <p class="menu-item-price"> $3.50</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img src="coffee2.jpg" alt="Americano">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Americano</h3>
-                            <p class="menu-item-description">black coffe with hot water</p>
-                            <p class="menu-item-price">Цена: $4.00</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img src="coffee3.jpg" alt="Кофе 3">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Lungo</h3>
-                            <p class="menu-item-description">e</p>
-                            <p class="menu-item-price">$3.50</p>
-                        </div>
-                    </div>
-                    <div class="menu-item">
-                        <img src="coffee1.jpg" alt="">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Glace</h3>
-                            <p class="menu-item-description"></p>
-                            <p class="menu-item-price"> $4.50</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img src="coffee2.jpg" alt="Americano">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Capucino</h3>
-                            <p class="menu-item-description">black coffe with hot water</p>
-                            <p class="menu-item-price">Цена: $4.00</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img src="coffee3.jpg" alt="Кофе 3">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Latte</h3>
-                            <p class="menu-item-description">e</p>
-                            <p class="menu-item-price">$4.50</p>
-                        </div>
-                    </div>
-                    <div class="menu-item">
-                        <img src="coffee1.jpg" alt="">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Cacao</h3>
-                            <p class="menu-item-description"></p>
-                            <p class="menu-item-price">$4.50</p>
-                        </div>
-                    </div>
-
-                    <div class="menu-item">
-                        <img src="coffee2.jpg" alt="Americano">
-                        <div class="menu-item-details">
-                            <h3 class="menu-item-name">Tea</h3>
-                            <p class="menu-item-description">black, green, fruity, ginger</p>
-                            <p class="menu-item-price"> $4.00</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
     </div>
+    <div style="width: 100%; background-color: #0d0c17">
+        <div class="text-center">
+            <h2 style="color: #c5a4a0a1; padding-top: 10px;">галерея :</h2>
+        </div>
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="tz-gallery">
+                                <div class="thumbnail">
+                                    <a href="img/gallery1.jpg">
+                                        <img src="img/gallery1.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="tz-gallery">
+                                <div class="thumbnail">
+                                    <a href="img/gallery2.jpg">
+                                        <img src="img/gallery2.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Добавьте остальные слайды с одним элементом -->
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="tz-gallery">
+                                <div class="thumbnail">
+                                    <a href="img/gallery3.jpg">
+                                        <img src="img/gallery3.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="tz-gallery">
+                                <div class="thumbnail">
+                                    <a href="img/gallery4.jpg">
+                                        <img src="img/gallery4.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+    <footer class="bottom"
+        style="height: 150px; width: 100%; background-color: #0d0c17; overflow: hidden; ">
+        <h2 class="text_button">All Rights Reserved 2023&nbsp&nbsp&nbsp
+            <a href="https://www.instagram.com/" class="icon"><img src="img/instagram-icon-white.png"></a></h2>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
+    <script>
+        baguetteBox.run('.tz-gallery');
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
