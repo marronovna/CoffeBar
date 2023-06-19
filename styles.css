@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+
+
+body {
+  font-family: 'Comfortaa', cursive;
+  font-size: 21px;
+  user-select: text;
+  background-image: url(img/Jan_Brueghel_the_Elder_-_Flowers_in_a_Wooden_Vessel_-_Google_Art_Project.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  user-select: none;
+}
+
+
+footer {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon img {
+  max-height: 30px;
+}
+
+.column_objects {
+  display: flex;
+  flex-direction: column;
+  justify-self: center;
+  align-self: center;
+  gap: 8px;
+  background-color: #0d0c17;
+  max-width: 60%;
+  height: 100%;
+  padding: 40px;
+  /* border-radius: 25px; */
+  z-index: 1;
+  box-shadow: 0 0 15px #05050534,
+    0 0 10px #08080845,
+    0 0 20px #1b19194d,
+    0 0 40px #08070731;
+}
+
+.tz-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
+
+.tz-gallery img {
+  max-height: 300px;
+  overflow: hidden;
+}
+
+.thumbnail {
+  padding: 7px;
+  border-radius: 0px;
+  padding-bottom: 50px;
+  background-color: #fff4e7cc;
+  border: none;
+}
+
+.neon-text {
+  font-family: 'Neonderthaw';
+  font-size: 25px;
+  padding: 0px;
+  color: #fdecff;
+}
+
+.neon {
+  font-family: 'Neonderthaw';
+  color: #fff9f9;
+  margin-top: 0px;
+  text-shadow: 0 0 15px #fff,
+    0 0 10px #fff,
+    0 0 20px #ff7474,
+    0 0 40px #ff7474;
+}
+
+h1 {
+  text-align: center;
+  font-size: 80px;
+  color: #7d7e7f9d;
+  margin: 5px;
+}
+
+h2 {
+  color: #a3a3a477;
+  padding: 10px;
+  margin: 0px;
+}
+
+.schedule {
+  padding: 20px 5px;
+  letter-spacing: 1.5px;
+  font-size: 22px;
+}
+
+.text_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #847c72;
+  gap: 10px;
+}
+
+.gallery-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.gallery-container p.page-description {
+  text-align: center;
+  margin: 30px auto;
+  font-size: 18px;
+  color: #85878c;
+}
+
+.container_pm {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+
+.obj img {
+  max-width: 100%;
+  max-height: 250px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px #181616;
+  transition: 0.6s;
+}
+
+.obj img:hover {
+  box-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #eccdcd,
+    0 0 40px #c09393;
+  transition: 0.5s;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .container_pm {
+    display: flex;
+    gap: 20px;
+  }
+
+  .obj {
+    max-width: 50%;
+  }
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .container_pm {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+  }
+
+  .neon {
+    font-size: 60px;
+  }
+
+  h2 {
+    font-size: 15px;
+    margin: 0px;
+  }
+
+  .schedule {
+    font-size: 17px;
+  }
+
+  .text_button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: start;
+    max-width: 250px;
+    font-size: 15px;
+    color: rgba(159, 149, 137, 0.965);
+    margin-top: 10px;
+  }
+
+  .icon img {
+    max-height: 17px;
+  }
+
+  .obj {
+    min-width: 70%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+
+  .column_objects {
+    padding: 20px;
+    max-width: 200px;
+  }
+
+  .neon {
+    font-size: 50px;
+  }
+}
+
+body::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+body::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.389);
+}
+
+body::-webkit-scrollbar-thumb {
+background-color: rgba(239, 239, 239, 0.276);
+}
