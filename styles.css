@@ -33,12 +33,7 @@ footer {
   max-width: 60%;
   height: 100%;
   padding: 40px;
-  /* border-radius: 25px; */
   z-index: 1;
-  box-shadow: 0 0 15px #05050534,
-    0 0 10px #08080845,
-    0 0 20px #1b19194d,
-    0 0 40px #08070731;
 }
 
 .tz-gallery {
@@ -158,10 +153,16 @@ h2 {
 
 
 @media screen and (max-width: 600px) {
+
   .container_pm {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
+  }
+
+  .column_objects {
+    padding: 25px;
+    max-width: 70%;
   }
 
   .neon {
@@ -200,8 +201,7 @@ h2 {
 @media screen and (max-width: 380px) {
 
   .column_objects {
-    padding: 15px;
-    max-width: 205px;
+    padding: 10px;
   }
 
   .text_button {
@@ -211,6 +211,11 @@ h2 {
   .neon {
     font-size: 50px;
   }
+
+  .obj {
+    width: 100%;
+  }
+
 }
 
 body::-webkit-scrollbar {
