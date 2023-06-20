@@ -169,12 +169,12 @@ h2 {
   }
 
   h2 {
-    font-size: 15px;
+    font-size: 17px;
     margin: 0px;
   }
 
   .schedule {
-    font-size: 17px;
+    font-size: 20px;
   }
 
   .text_button {
@@ -183,13 +183,13 @@ h2 {
     justify-content: space-between;
     text-align: start;
     max-width: 250px;
-    font-size: 15px;
+    font-size: 17px;
     color: rgba(159, 149, 137, 0.965);
     margin-top: 10px;
   }
 
   .icon img {
-    max-height: 17px;
+    max-height: 20px;
   }
 
   .obj {
@@ -200,8 +200,12 @@ h2 {
 @media screen and (max-width: 380px) {
 
   .column_objects {
-    padding: 20px;
-    max-width: 200px;
+    padding: 15px;
+    max-width: 205px;
+  }
+
+  .text_button {
+    padding: 0px 10px;
   }
 
   .neon {
@@ -218,5 +222,5 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-background-color: rgba(239, 239, 239, 0.276);
+  background-color: rgba(239, 239, 239, 0.276);
 }
